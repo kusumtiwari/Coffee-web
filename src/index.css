@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hover-effect{
+    transition: transform 0.3s ease;
+}
+.hover-effect:hover{
+    transform: translateY(-1.5px );
+}
+.hover-effect2{
+    transition: transform 0.3s ease;
+}
+.hover-effect2:hover{
+    transform: translateY(-5px );
+    background-color: white;
+}
+
+.hover-effect3{
+    transition: transform 0.3s ease;
+}
+.hover-effect3:hover{
+    transform: translateY(-5px );
+}
+
+.height{
+    height: 70vh;
+}
